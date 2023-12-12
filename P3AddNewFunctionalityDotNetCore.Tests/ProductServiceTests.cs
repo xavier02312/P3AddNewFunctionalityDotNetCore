@@ -43,7 +43,7 @@ namespace P3AddNewFunctionalityDotNetCore.Tests
         {// Arrange
             var product = new ProductViewModel
             {
-                Name = "Name",
+                Name = "Phone",
                 Price = "100",
                 Stock = "5",
                 Description = "Valid description",
@@ -60,7 +60,7 @@ namespace P3AddNewFunctionalityDotNetCore.Tests
         {// Arrange
             var product = new ProductViewModel
             {
-                Name = "  Name  ",
+                Name = "  Phone  ",
                 Price = "  100  ",
                 Stock = "  5  ",
                 Description = "Valid description",
